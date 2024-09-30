@@ -1,2 +1,3 @@
-# chatroom
-Google mail alternative
+# simple chatroom easy to use and deploy
+
+Luh calm chatroom on github
