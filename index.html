@@ -1,0 +1,29 @@
+<body>
+    <div id="username-container">
+        <input type="text" id="username" placeholder="Your name">
+    </div>
+    <div id="join-room-container">
+        <input type="text" id="room" placeholder="Room code">
+        <button id="join-btn">Join Room</button>
+    </div>
+    <div id="chat-container">
+        <!-- Message container -->
+        <div id="message-container"></div>
+
+        <!-- send message -->
+        <form id="send-container">
+            <input type="text" id="message-input">
+            <button type="submit" id="send-button">Send</button>
+        </form>
+    </div>
+</body>
+```
+To style your page, you can use CSS:
+
+```css
+#chat-container {
+    width: 60%;
+    height: 400px;
+    overflow: scroll;
+    border: 1px solid black;
+}
