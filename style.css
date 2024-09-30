@@ -1,0 +1,6 @@
+#chat-container {
+    width: 60%;
+    height: 400px;
+    overflow: scroll;
+    border: 1px solid black;
+}
